@@ -1,6 +1,7 @@
 # AskCoding
 
 [![build-status-image]][travis]
+[![coverage-status]][coveralls]
 
 ## What
 
@@ -37,6 +38,7 @@ AskCoding is a Django/Python based website. We aim to use these technologies:
 - PostgreSQL for data storage
 - Redis for caching
 - Nginx for serving static files and acting as reverse-proxy for Django.
+- ElasticSearch for searching/indexing.
 
 ## Guidelines
 
@@ -57,8 +59,10 @@ If you are excited by the idea and want to help, there are many ways in which yo
 
 ## License
 
-AskCoding is licensed under MIT License. See *license.md* file.
+AskCoding is licensed under MIT. See *LICENSE.md* file.
 
 
 [build-status-image]: https://secure.travis-ci.org/akarambir/askcoding.svg?branch=master
 [travis]: http://travis-ci.org/akarambir/askcoding?branch=master
+[coverage-status]: https://coveralls.io/repos/github/akarambir/askcoding/badge.svg?branch=master
+[coveralls]: https://coveralls.io/github/akarambir/askcoding?branch=master
