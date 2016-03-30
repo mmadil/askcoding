@@ -1,3 +1,6 @@
 [run]
 source = askcoding/
-omit = '*tests*,*commands*,*migrations*,*admin*,*wsgi*'
+omit = '*tests*,*commands*,*migrations*,*admin*,*wsgi*,*factories*'
+
+[report]
+omit = '*tests*,*commands*,*migrations*,*admin*,*wsgi*,*factories*'

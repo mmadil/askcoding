@@ -49,6 +49,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'askcoding.base',
+    'askcoding.users',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -195,6 +198,10 @@ MEDIA_ROOT = str(BASE_DIR.path('.media'))
 # See: https://docs.djangoproject.com/en/stable/ref/settings/#media-url
 MEDIA_URL = '/media/'
 
+# django.contrib.auth
+# ------------------------------------------------------------------------------
+AUTH_USER_MODEL = 'users.User'
+AUTHENTICATION_BACKENDS = ("django.contrib.auth.backends.ModelBackend",)
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators

@@ -8,6 +8,10 @@ gunicorn
 pytz
 django-extensions
 
+# Authentication
+# -------------------------------------
+django-allauth
+
 # Configuration
 # -------------------------------------
 django-environ
@@ -16,6 +20,10 @@ python-dotenv
 # Models
 # -------------------------------------
 psycopg2
+django-model-utils
+django-uuid-upload-path
+Pillow
+django-versatileimagefield
 
 # Debugging
 # -------------------------------------
@@ -30,3 +38,6 @@ isort
 pytest-django
 pytest-pythonpath
 pytest-cov
+factory_boy
+fake-factory
+mock
