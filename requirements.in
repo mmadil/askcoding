@@ -1,0 +1,7 @@
+# Core
+Django
+
+# Testing/Linting
+Flake8
+isort
+pytest

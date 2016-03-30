@@ -1,5 +1,7 @@
 # AskCoding
 
+[![build-status-image]][travis]
+
 ## What
 
 AskCoding is primarily a computer science learning resources aggregator. We collect and list learning resources like Books, eBooks, Tutorials, Online Courses, Offline Courses, Blog Posts, Video Talks that can help people learn and understand various topics in Computer Science.
@@ -56,3 +58,7 @@ If you are excited by the idea and want to help, there are many ways in which yo
 ## License
 
 AskCoding is licensed under MIT License. See *license.md* file.
+
+
+[build-status-image]: https://secure.travis-ci.org/akarambir/askcoding.svg?branch=master
+[travis]: http://travis-ci.org/akarambir/askcoding?branch=master
