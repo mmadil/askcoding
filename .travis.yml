@@ -17,7 +17,7 @@ install:
 
 script:
 - flake8
-- py.test -v
+- py.test --cov -v --tb=native
 
 notifications:
   email:

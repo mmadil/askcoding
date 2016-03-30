@@ -1,7 +1,32 @@
 # Core
+# -------------------------------------
 Django
+gunicorn
+
+# Extensions
+# -------------------------------------
+pytz
+django-extensions
+
+# Configuration
+# -------------------------------------
+django-environ
+python-dotenv
+
+# Models
+# -------------------------------------
+psycopg2
+
+# Debugging
+# -------------------------------------
+django-debug-toolbar
+ipdb
+ipython
 
 # Testing/Linting
+# -------------------------------------
 Flake8
 isort
-pytest
+pytest-django
+pytest-pythonpath
+pytest-cov

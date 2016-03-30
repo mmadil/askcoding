@@ -1,0 +1,3 @@
+[run]
+source = askcoding/
+omit = '*tests*,*commands*,*migrations*,*admin*,*wsgi*'
