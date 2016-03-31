@@ -57,6 +57,10 @@ If you are excited by the idea and want to help, there are many ways in which yo
 - Improving Platform UX, Website Language/Copy: What should be shown to end-users on various pages. UX developers, Editors can help with this.
 - UI/Frontend Design: People with design skills can contribute to frontend html/css/js.
 
+## Installing the AskCoding Development environment
+
+The AskCoding development environment is the recommended option for folks interested in contributing. This is documented in [README.dev.md](README.dev.md).
+
 ## License
 
 AskCoding is licensed under MIT. See *LICENSE.md* file.
