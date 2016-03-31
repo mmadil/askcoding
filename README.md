@@ -47,6 +47,10 @@ AskCoding is a Django/Python based website. We aim to use these technologies:
 - EditorConfig/isort for formatting Python files.
 - Py.test for testing.
 
+## Installing the AskCoding Development environment
+
+The AskCoding development environment is the recommened option for folks interested in contributing. This is documented in [README.dev.md](README.dev.md).
+
 ## Contributing
 
 If you are excited by the idea and want to help, there are many ways in which you can do that:
