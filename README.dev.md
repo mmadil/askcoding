@@ -4,6 +4,7 @@
 - For the Python part, we follow pep8 in most cases. We use [flake8][flake8] to check for linting errors. Once you're ready to commit changes, check your code with `flake8`.
 - Install a plugin for [EditorConfig][editorconfig] and let it handle some of the formating issues for you.
 - For the Django part, we follow standard [Django coding style][django-coding-style].
+- For managing our dependencies we use [pip-tools](https://github.com/nvie/pip-tools).
 - For contributing, we use [git flow][git-flow] which automate the branching workflow
 
 
@@ -57,14 +58,18 @@ class SomeClass(models.Model):
 # Setup
 
 Minimum requirements: **python3, pip & postgres**.
-We advise to use [`virtualenv`][virtualenv] with python3 interprator.
+We advise to use [`virtualenv`][virtualenv] with python3 interprator and use pip-tools for managing the dependencies.
 
-* Look at [postgres installation instruction][install-postgres]
+Please go through the following instruction notes in order to get started -
+
+* [Postgres installation instructions][install-postgres]
+* [pip-tools installation and usage instructions](https://github.com/nvie/pip-tools)
 
 ## Getting up and running
 
 ```
-pip install -r requirements.txt
+pip-sync   # for installing depedencies with pip-tools
+pip install -r requirements.txt    # without pip-tools
 createdb askcoding
 python manage.py migrate
 ```
@@ -160,6 +165,12 @@ Git-flow is a wrapper around git commands. To check the corresponding raw `git` 
 # Useful Commands
 
 Run these commands before pushing the code:
+
+* Adding new dependencies to requirements.txt from requirements.in
+
+```
+pip-compile requirements.in
+```
 
 * Testing
 ```
